@@ -32,7 +32,7 @@ void setup() {
 
 // the loop function runs over and over again forever
 void loop() {
-    delay(100);                  // wait for a second
+    delay(100);                  // wait for a tenth of a second
     switch (state) {
       //Bootup: Wait 2 Seconds, then switch on Radio
       case bootup:
